@@ -49,6 +49,10 @@ public class PlayerController : MonoBehaviour
             count = count - 1;
             SetCountText();
         }
+        if (count == 8)
+        {
+            transform.position = new Vector3(0.0f, 0.0f, 47.74.0f);
+        }
     }
 
     void OnMove(InputValue value)
