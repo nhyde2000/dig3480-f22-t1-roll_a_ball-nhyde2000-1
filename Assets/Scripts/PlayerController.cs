@@ -51,7 +51,7 @@ public class PlayerController : MonoBehaviour
         }
         if (count == 8)
         {
-            transform.position = new Vector3(0.0f, 0.0f, 47.74f);
+            transform.position = new Vector3(0.0f, 0.5f, 49.0f);
         }
     }
 
